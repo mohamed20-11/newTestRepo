@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    let startTime;
+    let elapsedTime = 0;
+    let intervalId;
+
+    function startStopwatch() {
+      // Reset start time
+      startTime = Date.now();
+
+      // Run setInterval() and save the ID
+      intervalId = setInterval(() => {
+        // Calculate elapsed time
+        const currentTime = Date.now();
+        elapsedTime = currentTime - startTime;
+
+        // Calculate different time measurements based on elapsed time
+        const seconds = Math.floor(elapsedTime / 1000) % 60;
+        const minutes = Math.floor(elapsedTime / (1000 * 60));
+
+        // Display the stopwatch
+        document.getElementById("stopwatch").innerHTML =
+          `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+      }, 10);
+    }
+
+    function stopStopwatch() {
+      // Stop the interval
+      clearInterval(intervalId);
+    }
+
+    function resetStopwatch() {
+      // Reset elapsed time
+      elapsedTime = 0;
+
+      // Display the stopwatch
+      document.getElementById("stopwatch").innerHTML = "00:00";
+    }
+  </script>
+</head>
+<body>
+  <div id="stopwatch">00:00</div>
+  <button onclick="startStopwatch()">Start</button>
+  <button onclick="stopStopwatch()">Stop</button>
+  <button onclick="resetStopwatch()">Reset</button>
+</body>
+</html>

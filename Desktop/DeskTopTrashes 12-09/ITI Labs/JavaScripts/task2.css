@@ -1,0 +1,66 @@
+body
+{
+   background-color: azure;
+    
+}
+.navy
+{
+     display:inline-flex;
+
+}
+
+a
+{
+    color:aquamarine ;
+    font-size: 23px;    
+}
+a:visited{
+    color: red;
+}
+a:hover
+{
+    color: darkkhaki;
+}
+button
+{
+    background-color: blue;
+    
+}
+.middle
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blue;
+    background-image: url("download\ \(3\).jfif");
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img
+{
+    width: 30%;
+    display: inline-flex;
+    margin:10px;
+    border-radius: 50%;
+}
+.sections
+{
+    
+    padding-top: 10%;
+display: inline-flex;
+}
+.but1
+{
+    background-color: green;
+}
+.but2
+{
+    background-color: red;
+}
+.but1
+{
+    background-color: cyan;
+}
+footer
+{
+    display: inline-flex; 
+}

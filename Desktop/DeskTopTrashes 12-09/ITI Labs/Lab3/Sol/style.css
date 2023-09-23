@@ -1,0 +1,44 @@
+
+body{
+    height: 300vh;
+}
+.navbar{
+    background-color: rgb(73, 73, 73);
+    color: rgb(226, 224, 224) !important;
+}
+.navbar a{
+    color: rgb(226, 224, 224) !important;
+}
+
+
+.text{
+    text-align: end;
+    
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    z-index: 9999;
+    color: rgb(226, 224, 224) !important; ;
+    
+}
+.form{
+    text-align: start;
+    color: black;
+}
+.backRound{
+    background-image: url(lights.jpg);
+   
+}
+.Media{
+    background-image: url(media.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+.backblack{
+   background-color: rgba(17, 17, 17, 0.5);
+    height: 30vh;
+  
+  
+}
+

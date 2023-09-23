@@ -1,0 +1,19 @@
+#completed-todos {
+    border: 1px solid black;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+  }
+
+  li:last-child {
+    border-bottom: none;
+  }
+
+  span {
+    font-weight: bold;
+  }

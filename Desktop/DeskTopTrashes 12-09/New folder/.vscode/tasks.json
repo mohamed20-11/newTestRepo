@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "typescript",
+			"tsconfig": "../../../../../C:/Users/moran/Desktop/New folder/tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "tsc: build - ../../../../../C:/Users/moran/Desktop/New folder/tsconfig.json"
+		}
+	]
+}
